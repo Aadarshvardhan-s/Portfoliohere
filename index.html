@@ -1,0 +1,107 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(120deg, #1e3c72, #2a5298);
+      color: white;
+      text-align: center;
+    }
+    header {
+      padding: 40px 20px;
+      animation: fadeIn 2s ease-in-out;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+    .intro, .skills {
+      margin: 40px auto;
+      max-width: 800px;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      animation: slideUp 1.5s ease-in-out;
+    }
+    .skills ul {
+      list-style: none;
+      padding: 0;
+    }
+    .skills li {
+      margin: 10px 0;
+      font-size: 1.1rem;
+    }
+    .contact {
+      margin: 50px 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .contact a {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: white;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 10px 20px;
+      border-radius: 8px;
+      transition: transform 0.3s, background 0.3s;
+    }
+    .contact a:hover {
+      transform: scale(1.1);
+      background: rgba(255, 255, 255, 0.3);
+    }
+    .contact img {
+      width: 20px;
+      height: 20px;
+    }@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes slideUp {
+  from { transform: translateY(50px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hi, I'm Aadarshvardhan Shrivastava</h1>
+    <p>BTech Student | IoT, Cybersecurity & Blockchain Enthusiast</p>
+  </header>  <section class="intro">
+    <h2>About Me</h2>
+    <p>Hello! I am passionate about coding, robotics, and technology. I enjoy learning new programming languages, exploring cybersecurity concepts, and working on innovative projects. In my free time, I like graphic designing, video editing, and traveling. My goal is to grow my knowledge and build something meaningful that creates an impact.</p>
+  </section>  <section class="skills">
+    <h2>My Skills</h2>
+    <ul>
+      <li>Frontend Web Development (HTML, CSS, JavaScript)</li>
+      <li>Basic Python Programming</li>
+      <li>MySQL Database</li>
+      <li>Networking Fundamentals</li>
+      <li>Cybersecurity Basics</li>
+      <li>Graphic Designing & Video Editing</li>
+    </ul>
+  </section>  <section class="contact">
+    <a href="https://github.com/Aadarshvardhan-s" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub"> GitHub
+    </a>
+    <a href="https://linkedin.com/in/aadarsh-shrivastava" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn"> LinkedIn
+    </a>
+    <a href="https://instagram.com/aadarshvardhan_shrivastava" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram"> Instagram
+    </a>
+  </section>
+</body>
+</html>
